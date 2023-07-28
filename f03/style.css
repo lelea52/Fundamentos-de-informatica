@@ -1,0 +1,8 @@
+body { font-size: 24px; }
+.pagina { width: 80%; padding: 20px 50px; margin: 20px; background-color: lightgray }
+h3 { color: deeppink; font-size: large;}
+.duvida { font-size: 32px; background-color: deeppink; color: white; text-align: center;}
+.front { font-size: 64px; background-color: deeppink; color: white; text-align: center;}
+.titulo-4 { font-size: 32px;}
+.tec { color: white; background-color: blue;}
+.Academy { color: white; background-color: deeppink;}
