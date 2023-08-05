@@ -16,8 +16,9 @@
 
     </form>
 
+    <h4>Radio</h4>
     <form>
-        <h4>Radio</h4>
+        
         <label for="email">E-mail</label>
         <input type="radio" name="MetodoDeContato" id="email" required value="email">
         <label for="telefone">Telefone</label>
@@ -25,6 +26,18 @@
         <label for="whatzapp">Whatzapp</label>
         <input type="radio" name="MetodoDeContato" id="zap" required value="whatzapp">
         <button type="submit">Enviar</button>
+    </form>
+
+    <h4>Select</h4>
+    <form>
+        <label for="plano">Escolha um </label>
+        <select name="plano" id="plano" required="true">
+            <option value="">Plano</option>
+            <option value="free">Free</option>
+            <option value="premium">Premium</option>
+            <option value="pro">Pro</option>
+        </select>
+        <button type="submit">Comprar</button>
     </form>
     
 </body>
