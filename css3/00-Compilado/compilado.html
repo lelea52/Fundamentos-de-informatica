@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Compilado</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+            /**----------------------- cor do texto----------------------- **/			
+			p {
+				color: red;
+			}
+            /**----------------------- cor de fundo----------------------- **/
+			.fundo {
+				background: green;
+			}
+
+            /**   -----------------------   .Classes e #Ids  -----------------------     **/
+            .azul {
+				color: blue;
+			}
+
+			#cabecalho {
+				background: green;
+			}
+
+            /**  -----------------------    Bordas   -----------------------    **/
+            #conteudo {
+				/*
+				border: 15px outset red;*/
+				border-color: red green yellow blue;
+				border-width: 15px 10px 8px 3px;
+				border-style: solid;
+			}
+
+            /**  -----------------------    Fontes e cores   -----------------------    **/
+            .formatacao{
+				color: #0EB426;
+				font-size: 30px;
+				font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+			}
+
+
+            /**  ---------------------   Tamanho do Texto   -----------------------   **/
+            body {
+				font-size: 30px;
+			}
+			
+			.texto{
+				/*
+				px -> tamanho fixo
+				% -> tamanho relativo
+				em -> tamanho relativo ao container pai
+				*/
+				/*font-size: 32px;*/
+				font-size: 2em;
+			}
+
+			.texto2 {
+				font-size: 1em;
+			}
+
+
+            /**  ---------------------   Estilos do Texto   -----------------------   **/
+            .y {
+				font-size: 40px;
+				font-family: "Times New Roman", Times, serif;
+			}
+
+			.negrito {
+				/* normal, bold, 100 até 900 */
+				font-weight: 900;
+			}
+
+			.italico {
+				font-style: italic;
+			}
+
+			.formatacao{
+				/*text-decoration: underline;*/
+				/*text-decoration: overline;*/
+				text-decoration: line-through;
+			}
+
+			.texto{
+				font: bold 40px "Lucida Sans Unicode", "Lucida Grande", sans-serif ;
+			}
+
+
+            /**  ---------------------   Cor, imagem, fundo e rolagem   -----------------------   **/
+            /*
+			.fundo {
+				background-color: blue;
+			}*/
+
+			h1 {
+				/*background-image: url('imagens/yoshi.png');
+
+				/* repeat-x, repeat-y, no-repeat, repeat */
+				background-repeat: repeat-x;
+
+				/*scrool , fixed*/
+				background-attachment: scroll;
+
+				/* 
+				primeiro valor: left, center, right 
+				segundo valor: top, center, bottom 
+				*/
+				background-position: center center;
+			}
+
+			.fundo{
+				background: blue url('imagens/yoshi.png') repeat-x fixed top ;
+			}
+
+		</style>
+
+	</head>
+	<body>
+
+        
+
+
+        <!--                Div e Span                -->
+        <div id="rodape">			
+			Todos os <span class="azul"> direitos</span> reservados
+		</div>		
+	</body>
+</html>
