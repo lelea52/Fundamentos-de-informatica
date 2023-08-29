@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+
+    <form>
+        <label for="name">Nome</label>
+        <input type="text" id="name" type="name" placeholder="Digite seu nome" required="true">
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="Digite a Senha" required="true">
+        <button type="submit">Entrar</button>
+
+    </form>
+
+    <h4>Radio</h4>
+    <form>
+        
+        <label for="email">E-mail</label>
+        <input type="radio" name="MetodoDeContato" id="email" required value="email">
+        <label for="telefone">Telefone</label>
+        <input type="radio" name="MetodoDeContato" id="telefone" required value="telefone">
+        <label for="whatzapp">Whatzapp</label>
+        <input type="radio" name="MetodoDeContato" id="zap" required value="whatzapp">
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h4>Select</h4>
+    <form>
+        <label for="plano">Escolha um </label>
+        <select name="plano" id="plano" required="true">
+            <option value="">Plano</option>
+            <option value="free">Free</option>
+            <option value="premium">Premium</option>
+            <option value="pro">Pro</option>
+        </select>
+        <button type="submit">Comprar</button>
+    </form>
+    
+    <h4>Textarea</h4>
+    <form>
+        <textarea
+         name="mensage"
+         id="mensage"
+         cols="40" 
+         rows="10" 
+         placeholder="Digite aqui sua mensagem..." 
+         required="true">
+        </textarea>
+        <button type="submit">Enviar Mensagem</button>
+    </form>
+</body>
+</html>
